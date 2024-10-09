@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voice-to-Text Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Voice-to-Text Application is a real-time speech recognition tool that converts spoken words into text. It utilizes the AssemblyAI API for transcription and provides a user-friendly interface built with React and Material-UI. Users can switch between light and dark themes to enhance their experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-Time Transcription**: Converts spoken audio into text in real time.
+- **Light and Dark Mode**: A toggle switch to change between light and dark themes for better accessibility.
+- **Responsive Design**: Adapts to different screen sizes, providing a seamless user experience.
+- **User-Friendly Interface**: Built using Material-UI for a modern look and feel.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: 
+  - React
+  - Material-UI
+- **API**: AssemblyAI for speech recognition
+- **Styling**: CSS-in-JS with Material-UI's styling solution
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To run this application locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/yourusername/voice-to-text-app.git
+   cd voice-to-text-app
